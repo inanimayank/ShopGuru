@@ -1,0 +1,8 @@
+name : Testing workflow
+on : workflow_dispatch
+jobs : 
+  testing:
+    runs-on : windows-latest
+    steps : 
+      - name : Get code
+        run : echo "Hello World!"
